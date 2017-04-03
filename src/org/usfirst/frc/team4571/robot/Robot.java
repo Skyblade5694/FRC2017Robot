@@ -112,7 +112,7 @@ public class Robot extends IterativeRobot {
 		// Setup joystick buttons
 //		Robot.LEFT_JOYSTICK.button4WhenPressed(TURN_LEFT_180_DEGREES);
 //		Robot.RIGHT_JOYSTICK.button4WhenPressed(TURN_RIGHT_180_DEGREES);
-		Robot.LEFT_JOYSTICK.button3WhenPressed(SHIFTER_SOLENOID_COMMAND);
+		Robot.LEFT_JOYSTICK.button6WhenPressed(SHIFTER_SOLENOID_COMMAND);
 //	Robot.RIGHT_JOYSTICK.button3WhenPressed(TURN_RIGHT_90_DEGREES);
 //	Robot.RIGHT_JOYSTICK.button3WhenPressed(TURN_RIGHT_90_DEGREES);
 //		Robot.LEFT_JOYSTICK.button1WhenPressed(TURN_LEFT_270_DEGREES);
