@@ -31,7 +31,7 @@ public class ShifterSubsystem extends Subsystem {
     public void pushDown() {
     	this.UpAndDownSolenoid.set(DoubleSolenoid.Value.kReverse);
     }
-    public Value getVerticalShifterSolenoidValue(){
+    public Value getShifterSolenoidValue(){
 		return UpAndDownSolenoid.get();
     }	
 }
