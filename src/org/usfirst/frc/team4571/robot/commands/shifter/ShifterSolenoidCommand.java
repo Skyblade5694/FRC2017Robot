@@ -15,7 +15,8 @@ public class ShifterSolenoidCommand extends Command {
     }
 
     protected void initialize() {
-
+       Robot.SHIFTER_SUBSYSTEM.initialize();
+       Shifter = true;
     }
 	protected void execute() {
 		if(Shifter){
