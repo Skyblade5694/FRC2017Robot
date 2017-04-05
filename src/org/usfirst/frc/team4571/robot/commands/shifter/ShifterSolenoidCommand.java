@@ -10,6 +10,7 @@ public class ShifterSolenoidCommand extends Command {
 	
     public ShifterSolenoidCommand() {
     	requires(Robot.SHIFTER_SUBSYSTEM);
+    	Shifter = true;
           
     }
 
